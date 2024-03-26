@@ -1,0 +1,67 @@
+.field {
+width: 400px;
+height: 400px;
+margin: 100px auto;
+border: 1px solid black;
+position: relative;
+}
+
+.block2 {
+width: 400px;
+height: 50px;
+background: #4ad94c;
+position: absolute;
+bottom: 0;
+left: 0px;
+}
+
+.block1 {
+width: 150px;
+height: 150px;
+background: #da5284;
+position: absolute;
+bottom: 0px;
+left: 120px;
+}
+
+
+.window {
+width: 60px;
+height: 60px;
+border-radius:50%;
+background: white;
+position: absolute;
+bottom: 50px;
+left: 190px;
+}
+
+.door {
+width: 40px;
+height: 100px;
+background: #9c213c;
+position: absolute;
+bottom: 0;
+left: 130px;
+}
+
+.roof {
+z-index: 2;
+width: 0px;
+height: 0px;
+position: absolute;
+left: 95px;
+top: 50px;
+border-top: 100px solid transparent;
+border-right: 100px solid transparent;
+border-bottom: 100px solid #e37c9b;
+border-left: 100px solid transparent;
+}
+
+.tube {
+width: 30px;
+height: 45px;
+background: #911f2f;
+position: absolute;
+bottom: 190px;
+left: 140px;
+}
